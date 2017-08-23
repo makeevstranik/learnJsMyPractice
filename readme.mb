@@ -2,4 +2,4 @@
 This repositiry include tasks solutions from https://learn.javascript.ru
 File naming: chapter_taskNumber
     for example: object-methods_1.js     for https://learn.javascript.ru/object-methods  task#1
-    the same file after babel: object-methods_1-b.js
+    the same file after babel, is in the folder 'dist'
