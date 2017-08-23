@@ -7,7 +7,7 @@
 * sum() - returns sum of these meanings
 * mul() - returns mul of these meanings
 * */
-import inputReader from './input-b'
+import inputReader from './input'
 const calculator = () => {
   let calc = {
         read: function() {
@@ -29,3 +29,4 @@ newCalc.read();
 console.log(newCalc.sum());
 console.log(newCalc.mul());
 console.log(newCalc.prop1);
+console.log('check babel');

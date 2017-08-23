@@ -16,3 +16,4 @@ var inputReader = function inputReader(message) {
   return readlineSync.question(message);
 };
 exports.default = inputReader;
+//# sourceMappingURL=input.js.map

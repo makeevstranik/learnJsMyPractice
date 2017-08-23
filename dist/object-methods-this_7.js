@@ -1,16 +1,16 @@
 'use strict';
 
-var _inputB = require('./input-b');
+var _input = require('./input');
 
-var _inputB2 = _interopRequireDefault(_inputB);
+var _input2 = _interopRequireDefault(_input);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var calculator = function calculator() {
   var calc = {
     read: function read() {
-      this.prop1 = (0, _inputB2.default)('Enter prop1 ');
-      this.prop2 = (0, _inputB2.default)('Enter prop2');
+      this.prop1 = (0, _input2.default)('Enter prop1 ');
+      this.prop2 = (0, _input2.default)('Enter prop2 ');
     },
     sum: function sum() {
       return this.prop1 + this.prop2;
@@ -36,3 +36,5 @@ newCalc.read();
 console.log(newCalc.sum());
 console.log(newCalc.mul());
 console.log(newCalc.prop1);
+console.log('check babel');
+//# sourceMappingURL=object-methods-this_7.js.map
